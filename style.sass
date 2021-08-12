@@ -1,0 +1,190 @@
+*,
+*::before,
+*::after
+  box-sizing: border-box
+@font-face
+  font-family: 'sf-pro-display'
+  src: url('../fonts/SF-Pro-Display-Regular.woff2') format('woff2'),
+  url('../fonts/SF-Pro-Display-Regular.woff') format('woff')
+  font-style: normal
+  font-weight: normal
+  font-display: swap
+
+@font-face
+  font-family: 'sf-pro-display'
+  src: url('../fonts/SF-Pro-Display-Bold.woff2') format('woff2'),
+  url('../fonts/SF-Pro-Display-Bold.woff') format('woff')
+  font-style: normal
+  font-weight: bold
+  font-display: swap
+
+@font-face
+  font-family: 'spaceagecyrillic'
+  src: url('../fonts/spaceagecyrillic-regular.woff2') format('woff2'),
+  url('../fonts/spaceagecyrillic-regular.woff') format('woff')
+  font-style: normal
+  font-weight: normal
+  font-display: swap
+
+body
+  font-family: 'sf-pro-display', sans-serif
+  font-weight: 400
+  font-size: 16px
+  line-height: 19px
+  color: #fff
+
+a
+  text-decoration: none
+  color: inherit
+button
+  border: none
+  background-color: transparent
+  cursor: pointer
+  font-family: 'sf-pro-display'
+.container
+  max-width: 1220px
+  margin: 0 auto
+  padding: 0 10px
+
+.header
+  background-image: url('../images/header-bg.jpg')
+
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+
+.header__inner
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  min-height: 100vh
+.header__top
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding: 75px 0 30px
+
+.title
+  font-family: 'spaceagecyrillic'
+  padding: 100px 0
+  font-size: 48px
+  line-height: 48px
+  font-weight: 400
+.menu
+  &__list
+    display: flex
+  &__item
+    margin-right: 30px
+  &__link
+
+    font-size: 18px
+    line-height: 21px
+    text-transform: uppercase
+    transition: color 0.5s linear
+    &:hover
+      color: #CB0E0E
+
+.phone
+  font-size: 24px
+  line-height: 29px
+  margin-left: auto
+.login
+  margin-left: 22px
+  margin-right: 137px
+  &__img
+
+.header__content
+  max-width: 600px
+.header__title
+  font-family: 'spaceagecyrillic'
+  font-size: 60px
+  line-height: 60px
+  font-weight: 400
+  margin-bottom: 20px
+.header__title span
+  font-size: 110px
+.header__text
+  font-size: 24px
+  line-height: 29px
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap
+  margin-bottom: 50px
+
+.header__btn
+  font-size: 24px
+  line-height: 29px
+  text-align: center
+  width: 100%
+  border: 1px solid #fff
+  padding: 15px 10px 16px
+  color: inherit
+
+.header__descrition
+  display: flex
+  justify-content: flex-end
+  margin-top: 40px
+  margin-bottom: 5%
+.header__description-text
+  width: 165px
+  font-size: 14px
+  line-height: 17px
+.header__description-text +
+.header__description-text
+  margin-left: 52px
+.about
+  background-image: url('../images/about-bg.png')
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+
+.about__item
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap
+  padding-bottom: 150px
+.about__img
+  max-width: 100%
+
+.about__content
+  width: 600px
+  &-title
+    font-size: 30px
+    line-height: 36px
+    font-weight: 700
+    margin-bottom: 5px
+  &-subtitle
+    font-size: 12px
+    line-height: 14px
+    font-weight: 400
+    color: #036cca
+    margin-bottom: 30px
+    text-transform: uppercase
+  &-text
+    display: flex
+    justify-content: space-between
+  &-text p
+    width: 165px
+    margin-bottom: 50px
+.about__table
+
+.table__caption
+
+.about__table-tr
+  border: 1px solid #fff
+  border-right: none
+  border-left: none
+
+.about__table-tr+.about__table-tr
+  font-size: 36px
+  line-height: 43px
+  font-weight: 700
+  text-align: center
+
+.about__table-td
+  padding: 10px 30px 10px 0
+.about__table-td span
+  font-size: 14px
+  line-height: 17px
+  display: block
+.button
